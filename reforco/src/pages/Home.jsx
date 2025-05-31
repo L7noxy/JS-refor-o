@@ -1,14 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
+import './Home.css'
 
 export default function Home() {
   return (
-    <div>
-      <nav>
-        <Link to={'/ganso'} >Ganso</Link>
-        <Link to={'/adivinhar'} >Adivinhar</Link>
-
-      </nav>
+    <div className='container-home'>
+      <Navbar />
     </div>
   )
 }
