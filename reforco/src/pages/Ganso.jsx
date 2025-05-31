@@ -21,27 +21,35 @@ export default function Ganso() {
         <div className='container-ganso'>
             <div className='fundo-ganso'>
                 <h2>EX. 9 - Capitão Ganso</h2>
-                <div className='marujos'>
-                    {/* {valor} */}
 
-                    {/* <button onClick={() => setValor(valor + 1)}>+</button> */}
-                    <input type="number"
-                        value={inputMarujos}
-                        onChange={(e) => setInputMarujos(e.target.value)}
-                    />
+                <div className='container-ipts-ganso'>
+                    <div className='marujos'>
+                        {/* {valor} */}
 
-                    <p> input: {inputMarujos}</p>
+                        {/* <button onClick={() => setValor(valor + 1)}>+</button> */}
+
+                        <p>Marujos:</p>
+                        <input type="number"
+                            value={inputMarujos}
+                            onChange={(e) => setInputMarujos(e.target.value)}
+                        />
+
+                        <p> input: {inputMarujos}</p>
+                    </div>
+
+                    <div className='eventos'>
+                        <p>Eventos:</p>
+                        <input type="number"
+                            value={inputEventos}
+                            onChange={(e) => setInputEventos(e.target.value)}
+                        />
+                        <p>Viagem: {inputEventos}</p>
+
+                    </div>
+                    
+                    <button onClick={verificar} className='verificar-viagem'>Verificar</button>
                 </div>
 
-                <div className='eventos'>
-                    <p>Eventos:</p>
-                    <input type="number"
-                        value={inputEventos}
-                        onChange={(e) => setInputEventos(e.target.value)}
-                    />
-                    <button onClick={verificar}>Verificar</button>
-                    <p>Viagem: {inputEventos}</p>
-                </div>
 
 
             </div>

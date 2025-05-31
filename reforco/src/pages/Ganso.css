@@ -23,6 +23,7 @@
 .fundo-ganso {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     background-color: rgb(187, 187, 187);
     padding: 50px;
@@ -38,10 +39,28 @@
 
 .marujos {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 .eventos {
     display: flex;
+    align-items: center;
     flex-direction: column;
+}
+
+.container-ipts-ganso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.verificar-viagem {
+    padding: 10px;
+    border: none;
+    background-color: rgb(16, 215, 73);
+    border-radius: 10px;
+    color: white;
 }
