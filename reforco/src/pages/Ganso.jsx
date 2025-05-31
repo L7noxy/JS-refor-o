@@ -36,7 +36,7 @@ export default function Ganso() {
                 onChange={(e) => setInputEventos(e.target.value)}
                 />
                 <button onClick={verificar}>Verificar</button>
-                {verificar}
+               <p>Viagem: {inputEventos}</p> 
 
             </div>
 
