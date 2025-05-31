@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <div>
       <nav>
-        <Link to={'/ganso'} >ganso</Link>
+        <Link to={'/ganso'} >Ganso</Link>
+        <Link to={'/adivinhar'} >Adivinhar</Link>
+
       </nav>
     </div>
   )
