@@ -1,7 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .container-ganso {
@@ -10,6 +13,35 @@
     justify-content: center;
     background-color: rgb(37, 37, 37);
     height: 100vh;
-    color: white;
-    
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-image: url(../public/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo-ganso {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+    padding: 50px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.fundo-ganso input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.marujos {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventos {
+    display: flex;
+    flex-direction: column;
 }

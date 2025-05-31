@@ -19,24 +19,30 @@ export default function Ganso() {
 
     return (
         <div className='container-ganso'>
-            <div>
-                {/* {valor} */}
+            <div className='fundo-ganso'>
                 <h2>EX. 9 - Capitão Ganso</h2>
-                <button onClick={() => setValor(valor + 1)}>+</button>
-                <input type="text"
-                    value={inputMarujos}
-                    onChange={(e) => setInputMarujos(e.target.value)}
-                />
+                <div className='marujos'>
+                    {/* {valor} */}
 
-                <p> input: {inputMarujos}</p>
+                    {/* <button onClick={() => setValor(valor + 1)}>+</button> */}
+                    <input type="number"
+                        value={inputMarujos}
+                        onChange={(e) => setInputMarujos(e.target.value)}
+                    />
 
-                <p>Eventos</p>
-                <input type="text" 
-                value={inputEventos}
-                onChange={(e) => setInputEventos(e.target.value)}
-                />
-                <button onClick={verificar}>Verificar</button>
-               <p>Viagem: {inputEventos}</p> 
+                    <p> input: {inputMarujos}</p>
+                </div>
+
+                <div className='eventos'>
+                    <p>Eventos:</p>
+                    <input type="number"
+                        value={inputEventos}
+                        onChange={(e) => setInputEventos(e.target.value)}
+                    />
+                    <button onClick={verificar}>Verificar</button>
+                    <p>Viagem: {inputEventos}</p>
+                </div>
+
 
             </div>
 
