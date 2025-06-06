@@ -1,11 +1,9 @@
 .container-navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgb(15, 15, 15);
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 50px;
     height: 70px;
 }
