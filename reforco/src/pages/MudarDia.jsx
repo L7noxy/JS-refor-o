@@ -38,12 +38,29 @@ export default function MudarDia() {
 
     return (
         <div className="container-mudar-dia">
+            <div className="card-mudar-dia">
             <input
                 type="text"
                 value={inputDia}
                 onChange={(e) => setInputDia(e.target.value)}
             />
             <button onClick={executar}>colocar um numero</button>
+
+            <ul>         
+                
+                <li>segunda</li>
+                <li>terca</li>
+                <li>quarta</li>
+                <li>quinta</li>
+                <li>sexta</li>
+                <li>sabado</li>
+                <li>domingo</li>
+                <li>dia invalido</li>
+                
+
+            </ul>
+            </div>
+
         </div>
     )
 }

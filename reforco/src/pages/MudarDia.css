@@ -10,3 +10,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.card-mudar-dia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
