@@ -1,0 +1,12 @@
+.container-mudar-dia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(37, 37, 37);
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-image: url(../public/img/fundo-dia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

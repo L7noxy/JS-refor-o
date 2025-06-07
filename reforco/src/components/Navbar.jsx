@@ -7,6 +7,8 @@ export default function Navbar() {
             <nav className='container-navbar'>
                 <Link to={'/ganso'} >Ganso</Link>
                 <Link to={'/adivinhar'} >Adivinhar</Link>
+                <Link to={'/mudarDia'} >Mudar o Dia</Link>
+
             </nav>
         </div>
     )
