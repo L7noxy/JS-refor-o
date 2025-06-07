@@ -1,10 +1,15 @@
 import { useState } from "react"
 import './MudarDia.css'
+import Voltar from "../components/Voltar"
 
 export default function MudarDia() {
     const [inputDia, setInputDia] = useState("")
 
-
+    function executarArray() {
+        let diasDaSemana = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo", "Dia inválido"]
+        let diaDaSemanaAleatorio = Math.ceil(Math.random() * 7)
+        alert(diasDaSemana[diaDaSemanaAleatorio])
+    }
 
     function executar() {
 
@@ -38,27 +43,28 @@ export default function MudarDia() {
 
     return (
         <div className="container-mudar-dia">
+            <Voltar />
             <div className="card-mudar-dia">
-            <input
-                type="text"
-                value={inputDia}
-                onChange={(e) => setInputDia(e.target.value)}
-            />
-            <button onClick={executar}>colocar um numero</button>
+                <input
+                    type="text"
+                    value={inputDia}
+                    onChange={(e) => setInputDia(e.target.value)}
+                />
+                <button className="button-mudar-dia" onClick={executarArray} >colocar um numero</button>
 
-            <ul>         
-                
-                <li>segunda</li>
-                <li>terca</li>
-                <li>quarta</li>
-                <li>quinta</li>
-                <li>sexta</li>
-                <li>sabado</li>
-                <li>domingo</li>
-                <li>dia invalido</li>
-                
+                <ul>
 
-            </ul>
+                    <li> 1 - segunda</li>
+                    <li> 2 - terca</li>
+                    <li> 3 - quarta</li>
+                    <li> 4 - quinta</li>
+                    <li> 5 - sexta</li>
+                    <li> 6 - sabado</li>
+                    <li> 7 - domingo</li>
+                    <li> 8 - dia invalido</li>
+
+
+                </ul>
             </div>
 
         </div>

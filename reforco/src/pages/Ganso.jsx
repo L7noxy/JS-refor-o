@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import './Ganso.css'
+import Voltar from '../components/Voltar'
 
 
 export default function Ganso() {
@@ -19,6 +20,7 @@ export default function Ganso() {
 
     return (
         <div className='container-ganso'>
+            <Voltar />
             <div className='fundo-ganso'>
                 <h2>EX. 9 - Capitão Ganso</h2>
 

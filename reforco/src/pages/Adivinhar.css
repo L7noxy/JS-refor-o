@@ -1,0 +1,33 @@
+.container-adivinhar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-image: url(../public/img/joker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-adivinhar button{
+    padding: 10px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.adivinhar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(187, 187, 187);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
