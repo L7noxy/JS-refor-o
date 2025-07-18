@@ -8,7 +8,7 @@ export default function Navbar() {
                 <Link to={'/ganso'} >Ganso</Link>
                 <Link to={'/adivinhar'} >Adivinhar</Link>
                 <Link to={'/mudarDia'} >Mudar o Dia</Link>
-
+                <Link to={'/arrays'}>Arrays</Link>
             </nav>
         </div>
     )
