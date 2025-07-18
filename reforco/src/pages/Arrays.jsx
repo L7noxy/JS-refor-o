@@ -12,6 +12,24 @@ export default function Arrays() {
 
     console.log(number)
 
+    let pos = 2
+
+    let posElement
+
+    let i
+
+    mix.splice(pos, 1 ,'janete')
+    console.log(mix)
+
+    for( i=0; i < number.length; i++){
+
+        if ( number[i] === "gabriel" ){
+            posElement = i
+        }
+    }
+
+    
+
   return (
     <div>
       
