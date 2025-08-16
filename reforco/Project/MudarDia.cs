@@ -2,46 +2,45 @@ using System;
 
 namespace MudarDia{
     class Index{
-        public static void Main(string[] args)
+        public static void Naosei(string[] args)
         {
-            Dia();
+            dia();
+            Console.WriteLine("Pressione Enter para sair...");
+            Console.ReadLine();
         }
 
-        public class Dia()
+        public static void dia()
         {
 
         Random random = new Random();
-        let diasDaSemana = ["Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado", "Domingo", "Dia inválido"];
         int diaDaSemanaAleatorio = random.Next(1, 9);
 
-            function executar()
+            switch (diaDaSemanaAleatorio) 
             {
-                    int diaDaSemanaAleatorio = random.Next(1, 9);
-                    switch (diaDaSemanaAleatorio) {
                 case 1:
-                    alert("Segunda-feira");
+                    Console.WriteLine("Segunda-feira");
                     break;
                 case 2:
-                    alert("Terça-feira");
+                    Console.WriteLine("Terça-feira");
                     break;
                 case 3:
-                    alert("Quarta-feira");
+                    Console.WriteLine("Quarta-feira");
                     break;
                 case 4:
-                    alert("Quinta-feira");
+                    Console.WriteLine("Quinta-feira");
                     break;
                 case 5:
-                    alert("Sexta-feira");
+                    Console.WriteLine("Sexta-feira");
                     break;
                 case 6:
-                    alert("Sábado");
+                    Console.WriteLine("Sábado");
                     break;
                 case 7:
-                    alert("Domingo");
+                    Console.WriteLine("Domingo");
                     break;
                 default:
-                    alert("Dia inválido");
-                }
+                    Console.WriteLine("Dia inválido");
+                    break;
             }
         }
     }

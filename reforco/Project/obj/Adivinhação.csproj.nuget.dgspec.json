@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Adivinhação\\Adivinhação.csproj": {}
+    "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Project\\Adivinhação.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Adivinhação\\Adivinhação.csproj": {
+    "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Project\\Adivinhação.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Adivinhação\\Adivinhação.csproj",
+        "projectUniqueName": "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Project\\Adivinhação.csproj",
         "projectName": "Adivinhação",
-        "projectPath": "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Adivinhação\\Adivinhação.csproj",
+        "projectPath": "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Project\\Adivinhação.csproj",
         "packagesPath": "C:\\Users\\gabriel_castanhel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Adivinhação\\obj\\",
+        "outputPath": "C:\\Users\\gabriel_castanhel\\Documents\\JS-refor-o\\reforco\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabriel_castanhel\\AppData\\Roaming\\NuGet\\NuGet.Config"

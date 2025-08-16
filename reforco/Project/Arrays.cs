@@ -2,7 +2,7 @@ using System;
 
 namespace Arrays{
     class Index{
-        public static void Main(string[] args)
+        public static void Iniciar(string[] args)
         {
             Codigo();
             Console.WriteLine("Pressione Enter para sair...");
