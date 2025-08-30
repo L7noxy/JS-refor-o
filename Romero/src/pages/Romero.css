@@ -1,14 +1,69 @@
-.card-produto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    padding: 20px;
-    background-color: aquamarine;
-    margin: 20px;
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
-.card-produto div{
-    
-    padding: 10px;
+.container-card {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.lista-produtos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.item-produto {
+    flex: 1 1 200px;
+}
+
+.card-produto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+}
+
+.card-produto:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto-nome {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.produto-preco-promocao {
+    color: #e53935;
+    font-weight: bold;
+}
+
+.produto-preco {
+    text-decoration: line-through;
+    color: #757575;
+}
+
+.produto-status {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.produto-status.novo {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.produto-status.antigo {
+    background-color: #ffcdd2;
+    color: #c62828;
 }

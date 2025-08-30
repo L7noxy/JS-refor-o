@@ -34,17 +34,19 @@ export default function Romero() {
     },
   ]
   return (
-    <div>
-      <ul>
+    <div className="container-card">
+      <ul className="lista-produtos">
         {produtos.map((produto) => (
-          <div key={produto.id}>
-            <div className='card-produto'>
-              <div>{produto.nome}</div>
-              <div>{produto.preco_promo}</div>
-              <div>{produto.preco}</div>
-              <div>{produto.antigo ? "Antigo" : "Novo"}</div>
-            </div>
-          </div>
+          <li key={produto.id} className="item-produto">
+            <article className="card-produto">
+              <h3 className="produto-nome">{produto.nome}</h3>
+              <p className="produto-preco-promocao">Promo: R$ {produto.preco_promo}</p>
+              <p className="produto-preco">Preço original: R$ {produto.preco}</p>
+              <span className={`produto-status ${produto.antigo ? 'antigo' : 'novo'}`}>
+                {produto.antigo ? 'Antigo' : 'Novo'}
+              </span>
+            </article>
+          </li>
         ))}
       </ul>
     </div>
