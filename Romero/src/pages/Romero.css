@@ -5,8 +5,6 @@
 }
 
 .container-card {
-    display: flex;
-    justify-content: center;
     padding: 2rem;
 }
 

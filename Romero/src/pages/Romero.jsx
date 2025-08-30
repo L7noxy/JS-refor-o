@@ -35,6 +35,7 @@ export default function Romero() {
   ]
   return (
     <div className="container-card">
+      <h1>Card de produtos</h1>
       <ul className="lista-produtos">
         {produtos.map((produto) => (
           <li key={produto.id} className="item-produto">
