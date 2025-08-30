@@ -1,0 +1,14 @@
+.card-produto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.card-produto div{
+    
+    padding: 10px;
+}
