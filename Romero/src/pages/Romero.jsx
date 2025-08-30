@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Romero.css'
+import Navbar from '../components/Navbar'
 
 export default function Romero() {
 
@@ -35,21 +36,25 @@ export default function Romero() {
   ]
   return (
     <div className="container-card">
-      <h1>Card de produtos</h1>
-      <ul className="lista-produtos">
-        {produtos.map((produto) => (
-          <li key={produto.id} className="item-produto">
-            <article className="card-produto">
-              <h3 className="produto-nome">{produto.nome}</h3>
-              <p className="produto-preco-promocao">Promo: R$ {produto.preco_promo}</p>
-              <p className="produto-preco">Preço original: R$ {produto.preco}</p>
-              <span className={`produto-status ${produto.antigo ? 'antigo' : 'novo'}`}>
-                {produto.antigo ? 'Antigo' : 'Novo'}
-              </span>
-            </article>
-          </li>
-        ))}
-      </ul>
+      <Navbar />
+      <div className='card-romero'>
+        <h1>Card de produtos</h1>
+        <ul className="lista-produtos">
+          {produtos.map((produto) => (
+            <li key={produto.id} className="item-produto">
+              <article className="card-produto">
+                <h3 className="produto-nome">{produto.nome}</h3>
+                <p className="produto-preco-promocao">Promo: R$ {produto.preco_promo}</p>
+                <p className="produto-preco">Preço original: R$ {produto.preco}</p>
+                <span className={`produto-status ${produto.antigo ? 'antigo' : 'novo'}`}>
+                  {produto.antigo ? 'Antigo' : 'Novo'}
+                </span>
+              </article>
+            </li>
+          ))}
+        </ul>
+      </div>
+
     </div>
   )
 }

@@ -2,10 +2,13 @@
     font-family: "Poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.container-card {
-    padding: 2rem;
+.card-romero{
+    padding: 20px;
 }
 
 .lista-produtos {
